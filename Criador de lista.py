@@ -11,7 +11,7 @@ extension = input("Insira a extensão dos arquivos de exercicios(py): ")
 
 outputContent = ""
 
-for fileAddress in SortFiles(glob.glob(f"{address}/*{extension}")):
+for fileAddress in SortFiles(glob.glob(f"{address}/*.{extension}")):
     fileName = fileAddress[len(address)+1: len(fileAddress)-3]
     fileContent = open(fileAddress, "r").read()
     outputContent += f"{fileName}:\n{fileContent}\n\n"
