@@ -1,5 +1,5 @@
-# Criador de lista de tarefas Python
-Programa em Python que abre uma pasta contendo os exercícios (py) e monta um arquivo txt com o código dos exercícios nomeados e listados
+# Criador de lista de tarefas
+Programa em Python que abre uma pasta, lê os arquivos dentro dela baseando-se na extensão dos arquivos e cria um .txt no mesmo diretório da pasta com os conteúdos dos arquivos lidos listados pelos nomes desses arquivos
 
 <details>
   <summary><b><u>Imagens</u></b></summary>
